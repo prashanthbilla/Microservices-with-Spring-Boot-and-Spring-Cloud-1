@@ -1,0 +1,17 @@
+server:
+  port: 9001
+
+Spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: "jdbc:mysql://localhost:3306/microservice"
+    username: root
+    password: Prashanth.009@
+
+  application:
+    name: PAYMENT-SERVICE
+
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
